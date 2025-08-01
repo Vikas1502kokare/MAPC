@@ -1,0 +1,14 @@
+GET  http://localhost:4004/catalog/Student
+
+####
+
+POST http://localhost:4004/odata/v4/catalog/Student
+Content-Type: application/json
+
+{
+  "Fname":"nitin",
+  "Lname":"kundale",
+  "age":23,
+    "degree":"BCA",
+  "state":"MH"
+}
